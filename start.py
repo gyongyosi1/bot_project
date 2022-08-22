@@ -7,6 +7,9 @@ from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
 import random
 import pickle
+import colorama 
+colorama.init()
+from colorama import Fore, Style, Back
 
 with open("db.json") as file:
     data = json.load(file)
