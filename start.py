@@ -5,11 +5,6 @@ import json
 import numpy as np
 from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
-
-import colorama
-colorama.init()
-from colorama import Fore, Style, Back
-
 import random
 import pickle
 
@@ -51,7 +46,7 @@ def chat():
                     for phrase in doc._.phrases[:1]:
                         try:
                             p = wikipedia.summary(phrase.text)
-                            print(">> "p)
+                            print(">> " + p)
                         except wikipedia.DisambiguationError as e:
                             break
                         except wikipedia.PageError as pe:
