@@ -1,0 +1,10 @@
+tensorflow
+nltk
+colorama
+numpy
+scikit_learn
+Flask
+spacy
+pytextrank
+spacy en_core_web_sm
+wikipedia
