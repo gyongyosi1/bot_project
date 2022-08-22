@@ -3,7 +3,7 @@ nltk
 colorama
 numpy
 scikit_learn
-Flask
+flask
 spacy
 pytextrank
 spacy en_core_web_sm
